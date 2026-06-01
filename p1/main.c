@@ -3,9 +3,9 @@
 int main(void)
 {
     char arr[10];
-    char *p;
-    char *q;
-    char max;
+    char *p = nullptr;
+    char *q = nullptr;
+    char max = '\0';
     int m_count = 0;
     
     for (p = arr; p < arr + 10; p++) {
