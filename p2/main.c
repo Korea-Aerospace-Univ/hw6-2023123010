@@ -17,7 +17,7 @@ int main(void)
         scanf("%d", q);
     }
     
-    for(p = arr1, q = arr2 + n - 1; p < arr1 + n; p++,q--;) {
+    for(p = arr1, q = arr2 + n - 1; p < arr1 + n; p++,q--) {
         printf(" %d", *p + *q);
     }
     
